@@ -1,0 +1,14 @@
+create table specialShipperTable 
+(
+    shipperNumber varchar(10) not null,
+    insertTimeStamp varchar(26) not null,
+    userLoginId varchar(50) not null,
+    retentionPeriod smallint not null,
+    primary key (shipperNumber)
+);
+
+insert into specialshippertable (shippernumber, inserttimestamp, userloginid, retentionperiod)
+values ('B23434', '2023-11-26-15.53.37.216244', 'xaa1aad', 540);
+
+select * from specialshippertable;
+
